@@ -1,5 +1,5 @@
-//import wallpaper from '@assets/wallpaper/Hyprland.png'
-import miku from '@assets/wallpaper/Hatsune-Miku.png'
+//import wallpaper from '@assets/wallpaper/Hyprland.webp'
+import miku from '@assets/wallpaper/Hatsune-Miku.webp'
 
 function Home() {
   return (
