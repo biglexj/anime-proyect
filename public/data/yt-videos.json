@@ -1,0 +1,570 @@
+[
+    {
+        "video": "01",
+        "title": "Boquita de Caramelo - Los Capos",
+        "id": "Hyl5G45mW28",
+        "description": "Boquita de Caramelo - Los Capos, un clásico vibrante del género cumbia-sureña.",
+        "tags": ["cumbia-sureña", "los-capos"]
+    },
+    {
+        "video": "02",
+        "title": "Si No Estás - Iñigo Quintero",
+        "id": "Levi62rDEkw",
+        "description": "Si No Estás - Iñigo Quintero, una emotiva balada pop. Versión no Karaoke",
+        "tags": ["pop", "iñigo-quintero"]
+    },
+    {
+        "video": "03",
+        "title": "Mala Tú - Víctor Manuel",
+        "id": "jr_4urB68rY",
+        "description": "Mala Tú - Víctor Manuel, una vibrante pieza de huayno-norteño.",
+        "tags": ["huayno-norteño", "víctor-manuel"]
+    },
+    {
+        "video": "04",
+        "title": "Hay Cariño - Russkaya",
+        "id": "PEKi5AJC3vc",
+        "description": "Hay Cariño - Russkaya, una vibrante pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "05",
+        "title": "Quiero Ser Tu Corazón - Russkaya",
+        "id": "MYp4g7vRG4Q",
+        "description": "Quiero Ser Tu Corazón - Russkaya, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "06",
+        "title": "Que Seas Feliz - Russkaya",
+        "id": "CvTpckdkKyg",
+        "description": "Que Seas Feliz - Russkaya, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "07",
+        "title": "Amor - Porta y Clara",
+        "id": "HH1TO3g-h4o",
+        "description": "Amor - Porta y Clara, una emotiva pieza de rap.",
+        "tags": ["rap", "porta", "clara"]
+    },
+    {
+        "video": "08",
+        "title": "Usubeni - Lacco Tower",
+        "id": "uUzyod0KQDI",
+        "description": "Usubeni - Lacco Tower, una emotiva pieza de J-Pop y anime.",
+        "tags": ["j-pop", "anime", "lacco-tower"]
+    },
+    {
+        "video": "09",
+        "title": "Haruka - Lacco Tower",
+        "id": "16ojnYt6GA8",
+        "description": "Haruka - Lacco Tower, una emotiva pieza de J-Pop y anime.",
+        "tags": ["j-pop", "anime", "lacco-tower"]
+    },
+    {
+        "video": "10",
+        "title": "Burn It Down - Linkin Park",
+        "id": "9I0v_wTfcb4",
+        "description": "Burn It Down - Linkin Park, una potente mezcla de metal, rock alternativo y rock electrónico.",
+        "tags": ["metal", "rock-alternativo", "rock-electrónico", "linkin-park"]
+    },
+    {
+        "video": "11",
+        "title": "Se Acabó el Amor - Amores Prohibidos",
+        "id": "xtilO7GkQxo",
+        "description": "Se Acabó el Amor - Amores Prohibidos, una emotiva pieza de cumbia sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "amores-prohibidos"]
+    },
+    {
+        "video": "12",
+        "title": "El Whatsapp - Amores Prohibidos",
+        "id": "07XzBLZxO98",
+        "description": "El Whatsapp - Amores Prohibidos, una vibrante pieza de cumbia sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "amores-prohibidos"]
+    },
+    {
+        "video": "13",
+        "title": "Por Tu Amor Sufro - Russkaya",
+        "id": "Jx0G3hSu7N8",
+        "description": "Por Tu Amor Sufro - Russkaya, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "14",
+        "title": "No Vas a Cambiar - Yarita Lizeth",
+        "id": "sJRW9w3RDjo",
+        "description": "No Vas a Cambiar - Yarita Lizeth, una emotiva pieza de cumbia-sureña y huayno-sureño.",
+        "tags": ["cumbia-sureña", "huayno-sureño", "yarita-lizeth"]
+    },
+    {
+        "video": "15",
+        "title": "Mi Persona Favorita - Río Roma",
+        "id": "3ccsjUrwAXc",
+        "description": "Mi Persona Favorita - Río Roma, una emotiva balada pop.",
+        "tags": ["pop", "balada", "río-roma"]
+    },
+    {
+        "video": "16",
+        "title": "Falsas Promesas - Oscar Manuel Valdiviezo",
+        "id": "O5kYzgBUXV4",
+        "description": "Falsas Promesas - Oscar Manuel Valdiviezo, una emotiva pieza de cumbia-sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "oscar-manuel-valdiviezo"]
+    },
+    {
+        "video": "17",
+        "title": "El Aventurero - Víctor Manuel",
+        "id": "dXVZoYtDB-A",
+        "description": "El Aventurero - Víctor Manuel, una vibrante pieza de huayno y huayno-norteño.",
+        "tags": ["huayno-norteño", "víctor-manuel"]
+    },
+    {
+        "video": "18",
+        "title": "Corta Venas - Yarita Lizeth",
+        "id": "91QhjgTk0A8",
+        "description": "Corta Venas - Yarita Lizeth, una emotiva pieza de cumbia-sureña y huayno-sureño.",
+        "tags": ["cumbia-sureña", "huayno-sureño", "yarita-lizeth"]
+    },
+    {
+        "video": "19",
+        "title": "Mis Cuernos - Yarita Lizeth Yanarico Ft. Wili Rojas",
+        "id": "YaS5jc_2uxo",
+        "description": "Mis Cuernos - Yarita Lizeth Yanarico Ft. Wili Rojas, una emotiva pieza de cumbia-sureña y huayno-sureño.",
+        "tags": ["cumbia-sureña", "huayno-sureño", "yarita-lizeth-yanarico", "wili-rojas"]
+    },
+    {
+        "video": "20",
+        "title": "Por Tu Amor Sufro - Russkaya",
+        "id": "X5_9hYeWOAs",
+        "description": "Por Tu Amor Sufro - Russkaya, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "21",
+        "title": "Linda Wawita - William Luna",
+        "id": "_d9KgFsJSvg",
+        "description": "Linda Wawita - William Luna, una emotiva pieza de huayno.",
+        "tags": ["huayno", "william-luna"]
+    },
+    {
+        "video": "22",
+        "title": "No Volveré - Russkaya",
+        "id": "qTuhmuOULBc",
+        "description": "No Volveré - Russkaya, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "23",
+        "title": "Si o No - Russkaya",
+        "id": "YVa4J7a8Lf4",
+        "description": "Si o No - Russkaya, una vibrante pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "24",
+        "title": "Ninachay - William Luna",
+        "id": "asLbU5KRzZ4",
+        "description": "Ninachay - William Luna, una emotiva pieza de huayno.",
+        "tags": ["huayno", "william-luna"]
+    },
+    {
+        "video": "25",
+        "title": "Hechicera - Russkaya",
+        "id": "_s9hjZUFLgA",
+        "description": "Hechicera - Russkaya, una cautivadora pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "26",
+        "title": "Orgullosa - Los Capos",
+        "id": "PPZq6EEbA10",
+        "description": "Orgullosa - Los Capos, una vibrante pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "los-capos"]
+    },
+    {
+        "video": "27",
+        "title": "El Huevo de Mi Vecina - Los Campesinos de Bambamarca",
+        "id": "iAuMMRxEAuk",
+        "description": "El Huevo de Mi Vecina - Los Campesinos de Bambamarca, una vibrante pieza de huayno y huayno-norteño.",
+        "tags": ["huayno-norteño", "los-campesinos-de-bambamarca"]
+    },
+    {
+        "video": "28",
+        "title": "La Chismosa - Los Campesinos de Bambamarca",
+        "id": "zGU368kTAA8",
+        "description": "La Chismosa - Los Campesinos de Bambamarca, una vibrante pieza de huayno y huayno-norteño.",
+        "tags": ["huayno-norteño", "los-campesinos-de-bambamarca"]
+    },
+    {
+        "video": "29",
+        "title": "Night Dancer - Imase",
+        "id": "ceLEbMsyOBo",
+        "description": "Night Dancer - Imase, una vibrante pieza de pop.",
+        "tags": ["pop", "imase"]
+    },
+    {
+        "video": "30",
+        "title": "La Duda - Armonía 10",
+        "id": "UHxudj1Si_4",
+        "description": "La Duda - Armonía 10, una emblemática pieza de cumbia.",
+        "tags": ["cumbia", "armonía-10"]
+    },
+    {
+        "video": "31",
+        "title": "A Que Volviste - Armonía 10",
+        "id": "tO4eQ3mWx7c",
+        "description": "A Que Volviste - Armonía 10, una emblemática pieza de cumbia norteña.",
+        "tags": ["cumbia", "armonía-10"]
+    },
+    {
+        "video": "32",
+        "title": "Ya No Quiero Vivir - Amores Prohibidos",
+        "id": "uTCiZThLlR4",
+        "description": "Ya No Quiero Vivir - Amores Prohibidos, una emotiva pieza de cumbia sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "amores-prohibidos"]
+    },
+    {
+        "video": "33",
+        "title": "Ya No Llores Muchachita - Amores Prohibidos",
+        "id": "SksyW_SZwoA",
+        "description": "Ya No Llores Muchachita - Amores Prohibidos, una emotiva pieza de cumbia sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "amores-prohibidos"]
+    },
+    {
+        "video": "34",
+        "title": "Mi Cariñito - Sonido 2000",
+        "id": "2yIyeecsO1Q",
+        "description": "Mi Cariñito - Sonido 2000, una emblemática pieza de cumbia.",
+        "tags": ["cumbia", "sonido-2000"]
+    },
+    {
+        "video": "35",
+        "title": "Que Te Pasa - String Karma",
+        "id": "Kp1JwI7Fu3w",
+        "description": "Que Te Pasa - String Karma, una vibrante pieza de huayno norteño.",
+        "tags": ["huayno-norteño", "string-karma"]
+    },
+    {
+        "video": "36",
+        "title": "Costumbres - Agrupación Furia Azul",
+        "id": "eby7KurNCHM",
+        "description": "Costumbres - Agrupación Furia Azul, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "agrupación-furia-azul"]
+    },
+    {
+        "video": "37",
+        "title": "Final Sin Explicación - Los Chavalillos Sensuales",
+        "id": "wQAQL9IGtyY",
+        "description": "Final Sin Explicación - Los Chavalillos Sensuales, una emotiva pieza de cumbia-sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "los-chavalillos-sensuales"]
+    },
+    {
+        "video": "38",
+        "title": "Cuerpo de Sirena - Papillón",
+        "id": "N3F9qvRYc1Q",
+        "description": "Cuerpo de Sirena - Papillón, una emblemática pieza de cumbia.",
+        "tags": ["cumbia", "papillón"]
+    },
+    {
+        "video": "39",
+        "title": "Fidelina - Kumbiazónica",
+        "id": "B866It7RIzc",
+        "description": "Fidelina - Kumbiazónica, una vibrante pieza de cumbia-sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "kumbiazónica"]
+    },
+    {
+        "video": "40",
+        "title": "Tus Amenazas - Wili Rojas",
+        "id": "xgmS12-dvT0",
+        "description": "Tus Amenazas - Wili Rojas, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "wili-rojas"]
+    },
+    {
+        "video": "41",
+        "title": "Basta Corazón - Yarita Lizeth",
+        "id": "mifv92xlfrE",
+        "description": "Basta Corazón - Yarita Lizeth, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "yarita-lizeth"]
+    },
+    {
+        "video": "42",
+        "title": "Basta Corazón No Llores - Agrupación Lérida",
+        "id": "hVahihHpIDs",
+        "description": "Basta Corazón No Llores - Agrupación Lérida, una emotiva pieza de cumbia.",
+        "tags": ["cumbia", "agrupación-lérida"]
+    },
+    {
+        "video": "43",
+        "title": "First Love - Oscar Ortiz y Edgardo Núñez",
+        "id": "ZQzvQirwfjw",
+        "description": "First Love - Oscar Ortiz y Edgardo Núñez, una emotiva pieza de pop y música regional mexicana.",
+        "tags": ["pop", "música-regional-mexicana", "oscar-ortiz", "edgardo-núñez"]
+    },
+    {
+        "video": "44",
+        "title": "No Vuelvas Más - Antología y Milena Warthon",
+        "id": "oy8N998dO0Y",
+        "description": "No Vuelvas Más - Antología y Milena Warthon, una vibrante pieza de caporal.",
+        "tags": ["caporal", "antología", "milena-warthon"]
+    },
+    {
+        "video": "45",
+        "title": "17 Años - Los Ángeles Azules ft. Jay De La Cueva",
+        "id": "lJnixdpd1jg",
+        "description": "17 Años - Los Ángeles Azules ft. Jay De La Cueva, una emblemática pieza de cumbia sonidera.",
+        "tags": ["mas", "cumbia-sonidera", "los-ángeles-azules", "jay-de-la-cueva"]
+    },
+    {
+        "video": "46",
+        "title": "Si No Estás - Iñigo Quintero",
+        "id": "FU0T0XX6uTw",
+        "description": "Si No Estás - Iñigo Quintero, una emotiva balada pop. Versión no Karaoke",
+        "tags": ["mas", "balada", "iñigo-quintero"]
+    },
+    {
+        "video": "47",
+        "title": "Mi Corazón Encantado - Field of View",
+        "id": "NzTr2HV4xI8",
+        "description": "Mi Corazón Encantado - Field of View, una emblemática pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "field-of-view"]
+    },
+    {
+        "video": "48",
+        "title": "Estoy Enamorado - Royer Soncco",
+        "id": "mE1Nxuki9HU",
+        "description": "Estoy Enamorado - Royer Soncco, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "royer-soncco"]
+    },
+    {
+        "video": "49",
+        "title": "Como Te Quiero - Wili Rojas",
+        "id": "M8PW0DCeJYk",
+        "description": "Como Te Quiero - Wili Rojas, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "wili-rojas"]
+    },
+    {
+        "video": "50",
+        "title": "Bugambilia - Nasa Histoires",
+        "id": "14pGqcVJq3M",
+        "description": "Bugambilia - Nasa Histoires, una emotiva pieza que fusiona jazz gitano y folk.",
+        "tags": ["pop", "jazz-gitano", "folk", "nasa-histoires"]
+    },
+    {
+        "video": "51",
+        "title": "Cariñito - Mauricio Mesones",
+        "id": "71syr7GU7BU",
+        "description": "Cariñito - Mauricio Mesones, una emblemática pieza de cumbia peruana.",
+        "tags": ["cumbia", "mauricio-mesones"]
+    },
+    {
+        "video": "52",
+        "title": "Mix Dejar De Amarte - Azucena Calvay y Orquesta",
+        "id": "cPYIgfyhNl8",
+        "description": "Mix Dejar De Amarte - Azucena Calvay y Orquesta, una emotiva pieza de cumbia.",
+        "tags": ["cumbia", "azucena-calvay", "orquesta"]
+    },
+    {
+        "video": "53",
+        "title": "Sparkle - Radwimps",
+        "id": "L8rUB_OamW0",
+        "description": "Sparkle - Radwimps, una emblemática pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "radwimps"]
+    },
+    {
+        "video": "54",
+        "title": "A Qué Volviste - Oscar Manuel",
+        "id": "r1u7XTs406A",
+        "description": "A Qué Volviste - Oscar Manuel, una emotiva pieza de cumbia-sanjuanera.",
+        "tags": ["cumbia-sanjuanera", "oscar-manuel"]
+    },
+    {
+        "video": "55",
+        "title": "Prometí No Enamorarme - Corali",
+        "id": "V1q5_zz9j78",
+        "description": "Prometí No Enamorarme - Corali, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "corali"]
+    },
+    {
+        "video": "56",
+        "title": "Salvemos Nuestro Amor - Corali",
+        "id": "a04v5HPaIyg",
+        "description": "Salvemos Nuestro Amor - Corali, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "corali"]
+    },
+    {
+        "video": "57",
+        "title": "Te Amo - Edson Morales",
+        "id": "fjlLXruODmU",
+        "description": "Te Amo - Edson Morales, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "edson-morales"]
+    },
+    {
+        "video": "58",
+        "title": "Sirenita - Corali",
+        "id": "F6SNk9nnMaQ",
+        "description": "Sirenita - Corali, una emblemática pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "corali"]
+    },
+    {
+        "video": "59",
+        "title": "Amor - Erick Elera",
+        "id": "RBv6xf9p45A",
+        "description": "Amor - Erick Elera, una vibrante pieza de pop.",
+        "tags": ["pop", "erick-elera"]
+    },
+    {
+        "video": "60",
+        "title": "Cajamarquina - String Karma",
+        "id": "ZA0TYqQMI3U",
+        "description": "Cajamarquina - String Karma, una vibrante pieza de huayno norteño.",
+        "tags": ["huayno-norteño", "string-karma"]
+    },
+    {
+        "video": "61",
+        "title": "Me Enamoré - Russkaya",
+        "id": "Sbg83geLNho",
+        "description": "Me Enamoré - Russkaya, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya"]
+    },
+    {
+        "video": "62",
+        "title": "Partido en Dos - La Única Tropical",
+        "id": "dN943W7HoNY",
+        "description": "Partido en Dos - La Única Tropical, una emotiva pieza de cumbia.",
+        "tags": ["cumbia", "la-única-tropical"]
+    },
+    {
+        "video": "63",
+        "title": "Ya Te Olvidé - Russkaya feat. Kumbia Fusión",
+        "id": "f5udgAkYuME",
+        "description": "Ya Te Olvidé - Russkaya feat. Kumbia Fusión, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "russkaya", "kumbia-fusión"]
+    },
+    {
+        "video": "64",
+        "title": "Mucho Para Mí - Santa RM",
+        "id": "OFJymm2G5kY",
+        "description": "Mucho Para Mí - Santa RM, una emotiva pieza de rap.",
+        "tags": ["rap", "santa-rm"]
+    },
+    {
+        "video": "65",
+        "title": "Zenzenzense - RADWIMPS",
+        "id": "watejMT5lzY",
+        "description": "Zenzenzense - RADWIMPS, una emblemática pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "radwimps"]
+    },
+    {
+        "video": "66",
+        "title": "El Idiota - Edson Morales",
+        "id": "GuCIZtJlMfk",
+        "description": "El Idiota - Edson Morales, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "edson-morales"]
+    },
+    {
+        "video": "67",
+        "title": "Pensaste Creíste - Franco Rojas",
+        "id": "9xiTFQmUqHM",
+        "description": "Pensaste Creíste - Franco Rojas, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "franco-rojas"]
+    },
+    {
+        "video": "68",
+        "title": "Quisiera Amar - Corali",
+        "id": "EQxCnBYDVZs",
+        "description": "Quisiera Amar - Corali, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "corali"]
+    },
+    {
+        "video": "69",
+        "title": "Ahora Mírame - Ulises Bueno",
+        "id": "lrvDbAOp6ps",
+        "description": "Ahora Mírame - Ulises Bueno, una emotiva pieza de cuarteto.",
+        "tags": ["mas", "cuarteto", "ulises-bueno"]
+    },
+    {
+        "video": "70",
+        "title": "Bling-Bang-Bang-Born - Creepy Nuts",
+        "id": "bW8OgU6Es4E",
+        "description": "Bling-Bang-Bang-Born - Creepy Nuts, una energética pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "creepy-nuts"]
+    },
+    {
+        "video": "71",
+        "title": "Black Rover - Vickeblanka",
+        "id": "I0TlZDkQY-o",
+        "description": "Black Rover - Vickeblanka, una energética pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "vickeblanka"]
+    },
+    {
+        "video": "72",
+        "title": "Tomo Con Mi Plata - Yolanda Ivón",
+        "id": "Qevo6-jW8gM",
+        "description": "Tomo Con Mi Plata - Yolanda Ivón, una vibrante pieza de huayno.",
+        "tags": ["huayno", "yolanda-ivón"]
+    },
+    {
+        "video": "73",
+        "title": "Libre Soltera - Yarita Lizeth",
+        "id": "CdhtNtVgi-A",
+        "description": "Libre Soltera - Yarita Lizeth, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "yarita-lizeth"]
+    },
+    {
+        "video": "74",
+        "title": "Sobreviviré - Yarita Lizeth",
+        "id": "dGCbcHEIYAk",
+        "description": "Sobreviviré - Yarita Lizeth, una emotiva pieza de cumbia-sureña.",
+        "tags": ["cumbia-sureña", "yarita-lizeth"]
+    },
+    {
+        "video": "75",
+        "title": "Shikairo Days - Shikanoko",
+        "id": "4Z-CcUourjI",
+        "description": "Shikairo Days - Shikanoko (Instrumental), una energética pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "shikanoko"]
+    },
+    {
+        "video": "76",
+        "title": "Rabbit Hole - DECO*27",
+        "id": "g6o7sJRQYOI",
+        "description": "Rabbit Hole - DECO*27 (Instrumental), una energética pieza de j-pop y anime.",
+        "tags": ["j-pop", "anime", "deco-27"]
+    },
+    {
+        "video": "77",
+        "title": "Que Lindos Son Tus Ojos - Dina Paucar",
+        "id": "wMnVBTJwHQI",
+        "description": "Que Lindos Son Tus Ojos - Dina Paucar, una emotiva pieza de huayno.",
+        "tags": ["huayno", "dina-paucar"]
+    },
+    {
+        "video": "78",
+        "title": "El Peor Error de Mi Vida - Ernesto Pimentel y Yarita Lizeth Yanarico",
+        "id": "WKH9_2v462k",
+        "description": "El Peor Error de Mi Vida - Ernesto Pimentel & Yarita Lizeth Yanarico (Karaoke/Pista)",
+        "tags": ["cumbia-sanjuanera", "yarita-lizeth"]
+    },
+    {
+        "video": "79",
+        "title": "Veneno de amor - Antologia y Yarita Lizeth Yanarico",
+        "id": "2TqMOPyDgLY",
+        "description": "Veneno de amor - Antologia & Yarita Lizeth Yanarico (Karaoke/Pista)",
+        "tags": ["cumbia-sureña", "yarita-lizeth"]
+    },
+    {
+        "video": "80",
+        "title": "Medallita - Yarita Lizeth Yanarico",
+        "id": "1Oo9fETKVuc",
+        "description": "Medallita - Yarita Lizeth Yanarico (Karaoke/Pista)",
+        "tags": ["cumbia-sanjuanera", "yarita-lizeth"]
+    },
+    {
+        "video": "81",
+        "title": "Hechicera - Franco Rojas",
+        "id": "64nyXcT0STE",
+        "description": "Hechicera - Franco Rojas (Karaoke/Pista)",
+        "tags": ["cumbia-sureña", "franco-rojas"]
+    }
+
+]

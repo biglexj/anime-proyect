@@ -1,0 +1,138 @@
+[{
+    "channelId": "biglexj",
+    "title": "Biglex J",
+    "description": "Canal principal con contenido variado, vlogs y actualizaciones personales.",
+    "channel": {
+        "name": "Biglex J",
+        "id": "biglexj",
+        "type": "main",
+        "link": "https://youtube.com/@biglexj",
+        "icon": "/Marca/@biglexj/biglexj.jpg",
+        "subscribers": "2K",
+        "content": ["Vlogs", "Actualizaciones", "Contenido Personal"]
+    },
+    "featured": true,
+    "publishDate": "2019-01-01",
+    "socialLinks": {
+        "tiktok": "https://tiktok.com/@biglexj",
+        "discord": "https://discord.gg/f5crHcpHKW"
+    }
+},
+{
+    "channelId": "biglexpe",
+    "title": "BJ Producciones",
+    "description": "Canal dedicado a la producción musical, karaokes y contenido de entretenimiento.",
+    "channel": {
+        "name": "BJ Producciones",
+        "id": "biglexpe",
+        "type": "entertainment",
+        "link": "https://youtube.com/@biglexpe",
+        "icon": "/Marca/@biglexpe/biglexpe.jpg",
+        "subscribers": "1.2K",
+        "content": ["Karaokes", "Música Original"]
+    },
+    "featured": true,
+    "publishDate": "2020-05-15",
+    "socialLinks": {
+        "instagram": "https://instagram.com/biglexpe",
+        "facebook": "https://facebook.com/biglexpe"
+    }
+},
+{
+    "channelId": "biglexdev",
+    "title": "Biglex Dev",
+    "description": "Canal enfocado en desarrollo web, programación y tecnología.",
+    "channel": {
+        "name": "Biglex Dev",
+        "id": "biglexdev",
+        "type": "technology",
+        "link": "https://youtube.com/@biglexdev",
+        "icon": "/Marca/@biglexdev/biglexdev.jpg",
+        "subscribers": "500",
+        "content": ["Tutoriales", "Desarrollo Web", "Tips de Programación"]
+    },
+    "featured": true,
+    "publishDate": "2023-01-20",
+    "socialLinks": {
+        "github": "https://github.com/biglexj",
+        "linkedin": "https://linkedin.com/in/biglexj"
+    }
+},
+{
+    "channelId": "biglexlive",
+    "title": "Biglex Live",
+    "description": "Canal dedicado a streams de juegos, programación y contenido en vivo.",
+    "channel": {
+        "name": "Biglex Live",
+        "id": "biglexlive",
+        "type": "streaming",
+        "link": "https://youtube.com/@biglexlive",
+        "icon": "/Marca/@biglexlive/biglexlive.png",
+        "subscribers": "300",
+        "content": ["Streams", "Gameplay", "Live Coding"]
+    },
+    "featured": false,
+    "publishDate": "2023-06-15",
+    "socialLinks": {
+        "twitch": "https://twitch.tv/biglexlive",
+        "discord": "https://discord.gg/f5crHcpHKW"
+    }
+},
+{
+    "channelId": "ely_vtuber",
+    "title": "Ely VTuber",
+    "description": "Canal de VTuber con IA, entretenimiento y contenido interactivo.",
+    "channel": {
+        "name": "Ely VTuber",
+        "id": "ely_vtuber",
+        "type": "vtuber",
+        "link": "https://youtube.com/@ely_vtuber",
+        "icon": "/Marca/@ely_vtuber/ely_vtuber.jpg",
+        "subscribers": "200",
+        "content": ["VTuber", "IA", "Entretenimiento"]
+    },
+    "featured": false,
+    "publishDate": "2024-01-01",
+    "socialLinks": {
+        "tiktok": "https://tiktok.com/@biglexj"
+    }
+},
+{
+    "channelId": "biglexgames",
+    "title": "Biglex Games",
+    "description": "Canal dedicado a videojuegos, reviews y gameplay comentado.",
+    "channel": {
+        "name": "Biglex Games",
+        "id": "biglexgames",
+        "type": "gaming",
+        "link": "https://youtube.com/@biglexgames",
+        "icon": "/Marca/@biglexgames/biglexgames.png",
+        "subscribers": "150",
+        "content": ["Gameplay", "Reviews", "Gaming"]
+    },
+    "featured": false,
+    "publishDate": "2023-08-20",
+    "socialLinks": {
+        "steam": "https://steamcommunity.com/id/biglexj"
+    }
+},
+{
+    "channelId": "miku-andina",
+    "title": "Miku Andina",
+    "description": "Canal dedicado a covers de Hatsune Miku con música latina y peruana.",
+    "channel": {
+        "name": "Miku Andina",
+        "id": "miku-andina",
+        "type": "music",
+        "link": "https://youtube.com/@miku-andina",
+        "icon": "/Marca/@miku-andina/miku-andina.jpg",
+        "subscribers": "400",
+        "content": ["Covers Latinos", "Música Peruana", "Vocaloid"]
+    },
+    "featured": true,
+    "publishDate": "2023-03-15",
+    "socialLinks": {
+        "spotify": "https://open.spotify.com/artist/mikuandina",
+        "soundcloud": "https://soundcloud.com/mikuandina"
+    }
+}]

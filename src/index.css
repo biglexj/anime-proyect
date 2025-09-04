@@ -1,0 +1,413 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.cursor-effect {
+  position: fixed;
+  pointer-events: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  mix-blend-mode: lighten;
+  animation: fadeOut 0.5s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+#title {
+  font-family: Kefa;
+  font-size: 1.8rem;
+}
+
+@theme {  
+  /* Variables de Fuentes */
+  --font-kefa: "Kefa", "serif";
+  --font-sticky-notes: "Sticky Notes", "cursive";
+  --font-google-sans: "Google Sans", "sans-serif";
+  --font-poppins: "Poppins", "sans-serif";
+
+  /* Colores de la paleta de colores - primordiales del logo */
+
+  /*Violeta*/
+  --color-violet-brand-50: #ecefff;
+  --color-violet-brand-100: #dde1ff;
+  --color-violet-brand-200: #c2c9ff;
+  --color-violet-brand-300: #9ca4ff;
+  --color-violet-brand-400: #7675ff;
+  --color-violet-brand-500: #5b4cff;
+  --color-violet-brand-600: #5536f5;
+  --color-violet-brand-700: #492ad8;
+  --color-violet-brand-800: #3b25ae;
+  --color-violet-brand-900: #332689;
+  --color-violet-brand-950: #201650;  
+
+  /*Coral*/
+  --color-coral-brand-50: #fff2f1;
+  --color-coral-brand-100: #ffe2df;
+  --color-coral-brand-200: #ffcac5;
+  --color-coral-brand-300: #ffa59d;
+  --color-coral-brand-400: #ff7164;
+  --color-coral-brand-500: #ff5b4c;
+  --color-coral-brand-600: #ed2715;
+  --color-coral-brand-700: #c81d0d;
+  --color-coral-brand-800: #a51c0f;
+  --color-coral-brand-900: #881e14;
+  --color-coral-brand-950: #4b0a04;  
+
+  /*Verde*/
+  --color-green-brand-50: #edffee;
+  --color-green-brand-100: #d5ffd9;
+  --color-green-brand-200: #aeffb5;
+  --color-green-brand-300: #6fff7e;
+  --color-green-brand-400: #4cff5b;
+  --color-green-brand-500: #00e913;
+  --color-green-brand-600: #00c20b;
+  --color-green-brand-700: #00980c;
+  --color-green-brand-800: #047710;
+  --color-green-brand-900: #066110;
+  --color-green-brand-950: #003705;
+  
+  /*Azul*/  
+  --color-blue-brand-50: #eff9ff;
+  --color-blue-brand-100: #def1ff;
+  --color-blue-brand-200: #b6e5ff;
+  --color-blue-brand-300: #75d3ff;
+  --color-blue-brand-400: #2cbdff;
+  --color-blue-brand-500: #00aaff;
+  --color-blue-brand-600: #0083d4;
+  --color-blue-brand-700: #0068ab;
+  --color-blue-brand-800: #00588d;
+  --color-blue-brand-900: #064974;
+  --color-blue-brand-950: #042e4d;
+
+  /*Colores de la paleta de colores - secundarios */
+
+  /*morning-glory-color-verde*/
+  --color-green-creativity-50: #f1faf9;
+  --color-green-creativity-100: #daf3f3;
+  --color-green-creativity-200: #bae7e7;
+  --color-green-creativity-300: #8fd7d7;
+  --color-green-creativity-400: #54babc;
+  --color-green-creativity-500: #389ea2;
+  --color-green-creativity-600: #318289;
+  --color-green-creativity-700: #2e6a70;
+  --color-green-creativity-800: #2c585e;
+  --color-green-creativity-900: #294a50;
+  --color-green-creativity-950: #173035;
+
+  /*tickle-me-pink - Rosado*/
+  --color-pink-panther-50: #fef1f6;
+  --color-pink-panther-100: #fee5ef;
+  --color-pink-panther-200: #feccdf;
+  --color-pink-panther-300: #ff8fb8;
+  --color-pink-panther-400: #fe689b;
+  --color-pink-panther-500: #f83c78;
+  --color-pink-panther-600: #e81a52;
+  --color-pink-panther-700: #ca0c39;
+  --color-pink-panther-800: #a70d30;
+  --color-pink-panther-900: #8b102b;
+  --color-pink-panther-950: #550214;
+
+  /*azure-radiance - Azul*/
+  --color-sky-blue-50: #eff6ff;
+  --color-sky-blue-100: #dbeafe;
+  --color-sky-blue-200: #c0dbfd;
+  --color-sky-blue-300: #94c5fc;
+  --color-sky-blue-400: #62a5f8;
+  --color-sky-blue-500: #4285f4;
+  --color-sky-blue-600: #2763e9;
+  --color-sky-blue-700: #1f4ed6;
+  --color-sky-blue-800: #2041ad;
+  --color-sky-blue-900: #1f3b89;
+  --color-sky-blue-950: #182553;
+
+  /*cotton-candy - Marron*/
+  --color-chocolate-50: #fefcec;
+  --color-chocolate-100: #fcf4c9;
+  --color-chocolate-200: #f8e78f;
+  --color-chocolate-300: #f5d554;
+  --color-chocolate-400: #f2c22d;
+  --color-chocolate-500: #eca414;
+  --color-chocolate-600: #d17d0e;
+  --color-chocolate-700: #ad5a10;
+  --color-chocolate-800: #8b4513;
+  --color-chocolate-900: #743a13;
+  --color-chocolate-950: #421d06;
+
+  
+  /*lemon - Amarrillo*/
+  --color-yellow-lemon-50: #fefde8;
+  --color-yellow-lemon-100: #fffdc2;
+  --color-yellow-lemon-200: #fff889;
+  --color-yellow-lemon-300: #ffeb3b;
+  --color-yellow-lemon-400: #fddb12;
+  --color-yellow-lemon-500: #ecc106;
+  --color-yellow-lemon-600: #cc9702;
+  --color-yellow-lemon-700: #a36b05;
+  --color-yellow-lemon-800: #86540d;
+  --color-yellow-lemon-900: #724511;
+  --color-yellow-lemon-950: #432405;
+
+  
+  /* Colores de la paleta de colores - secundarios */
+  --primary-color-error: #b3261e; /* hsl(4, 62%, 41%) */
+  --primary-color-success: #1eb34a; /* hsl(135, 62%, 41%) */
+
+  /* Colores Primarios */  
+  --primary-color-charcoal: #36454F; /* hsl(200, 12%, 27%) */
+  --primary-color-light-gray: #D3D3D3; /* hsl(0, 0%, 83%) */
+  --primary-color-dark-gray: #4F4F4F; /* hsl(0, 0%, 31%) */
+  --primary-color-dark-green: #006400; /* hsl(120, 100%, 20%) */
+  --primary-color-dark-red: #8B0000; /* hsl(0, 100%, 27%) */
+  --primary-color-turquoise: #40E0D0; /* hsl(174, 72%, 56%) */
+  --primary-color-navy-blue: #000080; /* hsl(240, 100%, 25%) */
+  --primary-color-peach: #FFDAB9; /* hsl(28, 100%, 86%) */
+  --primary-color-dark-purple: #4B0082; /* hsl(275, 76%, 25%) */
+  --primary-color-gold: #FFD700; /* hsl(51, 100%, 50%) */
+  --primary-color-silver: #C0C0C0; /* hsl(0, 0%, 75%) */
+
+  /* Colores Oscuros */
+  --dark-color-yellow: #E5A700; /* hsl(47, 100%, 45%) */
+  --dark-color-orange: #D86B00; /* hsl(24, 100%, 42%) */
+  --dark-color-green: #5b8f8f; /* hsl(180, 33%, 38%) */
+  --dark-color-pink: #B24F7F; /* hsl(0, 50%, 45%) */
+  --dark-color-blue: #1f65b6; /* hsl(210, 70%, 37%) */
+  --dark-color-brown: #6f2f1f; /* hsl(10, 55%, 27%) */
+  --dark-color-violet: #5c1d98; /* hsl(270, 70%, 33%) */
+
+  /* Colores sólidos */
+  --background-color-white: #F5F5F5;
+  --background-color-dark: #333333;
+
+  /* Colores del Texto */
+  --text-color-white: #F5F5F5;
+  --text-color-black: #000000;
+  --text-color-dark: #333333;
+  --text-input-field: #F7F7F7;
+
+  --white: #FFFFFF;
+  --gray: #333333;
+  --black: #000000;
+  --dark: #232830;
+}
+
+@font-face {
+  font-family: Kefa;
+  src: url('/fonts/Kefa/kefa-bold.ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: Kefa;
+  src: url('/fonts/Kefa/Kefa-Regular.TTF');
+  font-style: regular;
+}
+
+@font-face {
+  font-family: Sticky Notes;
+  src: url('/fonts/Sticky-Notes/Sticky\ Notes.ttf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-BlackItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900; /* Black Italic */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700; /* Bold */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700; /* Bold Italic */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400; /* Italic */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300; /* Light */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300; /* Light Italic */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500; /* Medium */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500; /* Medium Italic */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400; /* Regular */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100; /* Thin */
+}
+@font-face {
+  font-family: 'Google Sans';
+  src: url('/fonts/google-sans/ProductSans-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100; /* Thin Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100; /* Thin */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100; /* Thin Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200; /* ExtraLight */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200; /* ExtraLight Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300; /* Light */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300; /* Light Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400; /* Regular */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400; /* Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500; /* Medium Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600; /* SemiBold */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600; /* SemiBold Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700; /* Bold */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700; /* Bold Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800; /* ExtraBold */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800; /* ExtraBold Italic */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-Black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900; /* Black */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins/Poppins-BlackItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900; /* Black Italic */
+}
