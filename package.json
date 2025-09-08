@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
+    "@ricons/carbon": "^0.13.0",
+    "@ricons/utils": "^0.1.6",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^24.3.1",
     "@types/react": "^19.1.12",

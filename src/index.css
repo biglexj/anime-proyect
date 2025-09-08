@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -30,7 +32,7 @@
   font-size: 1.8rem;
 }
 
-@theme {  
+@theme {
   /* Variables de Fuentes */
   --font-kefa: "Kefa", "serif";
   --font-sticky-notes: "Sticky Notes", "cursive";
@@ -50,7 +52,7 @@
   --color-violet-brand-700: #492ad8;
   --color-violet-brand-800: #3b25ae;
   --color-violet-brand-900: #332689;
-  --color-violet-brand-950: #201650;  
+  --color-violet-brand-950: #201650;
 
   /*Coral*/
   --color-coral-brand-50: #fff2f1;
@@ -63,7 +65,7 @@
   --color-coral-brand-700: #c81d0d;
   --color-coral-brand-800: #a51c0f;
   --color-coral-brand-900: #881e14;
-  --color-coral-brand-950: #4b0a04;  
+  --color-coral-brand-950: #4b0a04;
 
   /*Verde*/
   --color-green-brand-50: #edffee;
@@ -77,8 +79,8 @@
   --color-green-brand-800: #047710;
   --color-green-brand-900: #066110;
   --color-green-brand-950: #003705;
-  
-  /*Azul*/  
+
+  /*Azul*/
   --color-blue-brand-50: #eff9ff;
   --color-blue-brand-100: #def1ff;
   --color-blue-brand-200: #b6e5ff;
@@ -145,7 +147,6 @@
   --color-chocolate-900: #743a13;
   --color-chocolate-950: #421d06;
 
-  
   /*lemon - Amarrillo*/
   --color-yellow-lemon-50: #fefde8;
   --color-yellow-lemon-100: #fffdc2;
@@ -159,44 +160,43 @@
   --color-yellow-lemon-900: #724511;
   --color-yellow-lemon-950: #432405;
 
-  
   /* Colores de la paleta de colores - secundarios */
   --primary-color-error: #b3261e; /* hsl(4, 62%, 41%) */
   --primary-color-success: #1eb34a; /* hsl(135, 62%, 41%) */
 
-  /* Colores Primarios */  
-  --primary-color-charcoal: #36454F; /* hsl(200, 12%, 27%) */
-  --primary-color-light-gray: #D3D3D3; /* hsl(0, 0%, 83%) */
-  --primary-color-dark-gray: #4F4F4F; /* hsl(0, 0%, 31%) */
+  /* Colores Primarios */
+  --primary-color-charcoal: #36454f; /* hsl(200, 12%, 27%) */
+  --primary-color-light-gray: #d3d3d3; /* hsl(0, 0%, 83%) */
+  --primary-color-dark-gray: #4f4f4f; /* hsl(0, 0%, 31%) */
   --primary-color-dark-green: #006400; /* hsl(120, 100%, 20%) */
-  --primary-color-dark-red: #8B0000; /* hsl(0, 100%, 27%) */
-  --primary-color-turquoise: #40E0D0; /* hsl(174, 72%, 56%) */
+  --primary-color-dark-red: #8b0000; /* hsl(0, 100%, 27%) */
+  --primary-color-turquoise: #40e0d0; /* hsl(174, 72%, 56%) */
   --primary-color-navy-blue: #000080; /* hsl(240, 100%, 25%) */
-  --primary-color-peach: #FFDAB9; /* hsl(28, 100%, 86%) */
-  --primary-color-dark-purple: #4B0082; /* hsl(275, 76%, 25%) */
-  --primary-color-gold: #FFD700; /* hsl(51, 100%, 50%) */
-  --primary-color-silver: #C0C0C0; /* hsl(0, 0%, 75%) */
+  --primary-color-peach: #ffdab9; /* hsl(28, 100%, 86%) */
+  --primary-color-dark-purple: #4b0082; /* hsl(275, 76%, 25%) */
+  --primary-color-gold: #ffd700; /* hsl(51, 100%, 50%) */
+  --primary-color-silver: #c0c0c0; /* hsl(0, 0%, 75%) */
 
   /* Colores Oscuros */
-  --dark-color-yellow: #E5A700; /* hsl(47, 100%, 45%) */
-  --dark-color-orange: #D86B00; /* hsl(24, 100%, 42%) */
+  --dark-color-yellow: #e5a700; /* hsl(47, 100%, 45%) */
+  --dark-color-orange: #d86b00; /* hsl(24, 100%, 42%) */
   --dark-color-green: #5b8f8f; /* hsl(180, 33%, 38%) */
-  --dark-color-pink: #B24F7F; /* hsl(0, 50%, 45%) */
+  --dark-color-pink: #b24f7f; /* hsl(0, 50%, 45%) */
   --dark-color-blue: #1f65b6; /* hsl(210, 70%, 37%) */
   --dark-color-brown: #6f2f1f; /* hsl(10, 55%, 27%) */
   --dark-color-violet: #5c1d98; /* hsl(270, 70%, 33%) */
 
   /* Colores sólidos */
-  --background-color-white: #F5F5F5;
+  --background-color-white: #f5f5f5;
   --background-color-dark: #333333;
 
   /* Colores del Texto */
-  --text-color-white: #F5F5F5;
+  --text-color-white: #f5f5f5;
   --text-color-black: #000000;
   --text-color-dark: #333333;
-  --text-input-field: #F7F7F7;
+  --text-input-field: #f7f7f7;
 
-  --white: #FFFFFF;
+  --white: #ffffff;
   --gray: #333333;
   --black: #000000;
   --dark: #232830;
@@ -204,210 +204,210 @@
 
 @font-face {
   font-family: Kefa;
-  src: url('/fonts/Kefa/kefa-bold.ttf');
+  src: url("/fonts/Kefa/kefa-bold.ttf");
   font-style: normal;
 }
 @font-face {
   font-family: Kefa;
-  src: url('/fonts/Kefa/Kefa-Regular.TTF');
+  src: url("/fonts/Kefa/Kefa-Regular.TTF");
   font-style: regular;
 }
 
 @font-face {
   font-family: Sticky Notes;
-  src: url('/fonts/Sticky-Notes/Sticky\ Notes.ttf');
+  src: url("/fonts/Sticky-Notes/Sticky\ Notes.ttf");
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-BlackItalic.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-BlackItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 900; /* Black Italic */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-Bold.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700; /* Bold */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-BoldItalic.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 700; /* Bold Italic */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-Italic.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400; /* Italic */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-Light.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 300; /* Light */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-LightItalic.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-LightItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 300; /* Light Italic */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-Medium.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500; /* Medium */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-MediumItalic.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-MediumItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 500; /* Medium Italic */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-Regular.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400; /* Regular */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-Thin.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-Thin.ttf") format("truetype");
   font-style: normal;
   font-weight: 100; /* Thin */
 }
 @font-face {
-  font-family: 'Google Sans';
-  src: url('/fonts/google-sans/ProductSans-ThinItalic.ttf') format('truetype');
+  font-family: "Google Sans";
+  src: url("/fonts/google-sans/ProductSans-ThinItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 100; /* Thin Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Thin.ttf") format("truetype");
   font-style: normal;
   font-weight: 100; /* Thin */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-ThinItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 100; /* Thin Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
   font-style: normal;
   font-weight: 200; /* ExtraLight */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-ExtraLightItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 200; /* ExtraLight Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 300; /* Light */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-LightItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-LightItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 300; /* Light Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400; /* Regular */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400; /* Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500; /* Medium */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-MediumItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-MediumItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 500; /* Medium Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
   font-style: normal;
   font-weight: 600; /* SemiBold */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 600; /* SemiBold Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700; /* Bold */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 700; /* Bold Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
   font-style: normal;
   font-weight: 800; /* ExtraBold */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-ExtraBoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 800; /* ExtraBold Italic */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Black.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Black.ttf") format("truetype");
   font-style: normal;
   font-weight: 900; /* Black */
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-BlackItalic.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 900; /* Black Italic */
 }
